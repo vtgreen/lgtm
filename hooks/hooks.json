@@ -10,6 +10,17 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__lgtm__(comment|add_document|set_analysis|reply)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/post-tool-use-osc.sh"
+          }
+        ]
+      }
     ]
   }
 }
