@@ -1,0 +1,19 @@
+{
+  "name": "lgtm-dev",
+  "description": "Self-published marketplace for the LGTM Claude Code plugin (single-plugin marketplace, primarily for local development and personal install).",
+  "owner": {
+    "name": "Tom"
+  },
+  "plugins": [
+    {
+      "name": "lgtm",
+      "description": "Web-based code review UI with AI-powered analysis for collaborative code review sessions",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "Tom"
+      },
+      "keywords": ["review", "diff", "mcp", "analysis"]
+    }
+  ]
+}
